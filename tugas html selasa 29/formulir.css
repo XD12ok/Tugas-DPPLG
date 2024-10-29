@@ -14,8 +14,8 @@ hr {
 }
 
 .formulir {
-    background-color: white;
-    filter: opacity(80%);
+    background-color: rgb(226, 138, 38);
+    filter: opacity(90%);
     padding: 15px;
     border-radius: 8px;
     border-style: dashed;
