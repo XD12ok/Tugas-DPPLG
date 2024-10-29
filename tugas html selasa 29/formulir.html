@@ -42,13 +42,13 @@
             <br>
             <label for="Pembayaran">Pembayaran :</label>
             <br>
-            <input type="radio" id="PembayaranLunas" name="Pembayaran" value="Lunas">Lunas
-            <input type="radio" id="PembayaranBelum" name="Pembayaran" value="Belum Bayar">Belum bayar
-            <input type="radio" id="PembayaranDP" name="Pembayaran" value="DP">DP
             <div class="input-group">
-                <input type="text" id="KetikPembayaran" name="Angka_DP" placeholder="Ketikkan angka uang muka">
-            </div>
+                <input type="radio" id="PembayaranLunas" name="Pembayaran" value="Lunas">Lunas
+                <input type="radio" id="PembayaranBelum" name="Pembayaran" value="Belum Bayar">Belum bayar
+                <input type="radio" id="PembayaranDP" name="Pembayaran" value="DP">DP
+                <input type="number" id="KetikPembayaran" name="Angka_DP" placeholder="Ketikkan angka uang muka">
             <br>
+            </div>
             <label for="Metode_Pembayaran">Metode pembayaran :</label>
             <br>
             <select id="Metode_Pembayaran" name="Metode_pembayaran">
@@ -63,22 +63,22 @@
             <div class="menu-item">
                 <input type="checkbox" id="NasiGoreng" name="NasiGoreng" value="NasiGoreng">
                 <label for="JumlahNasiGoreng">Nasi Goreng</label>
-                <input type="text" id="JumlahNasiGoreng" name="Jumlah_NasiGoreng" placeholder="Jumlah item (angka)">
+                <input type="number" id="JumlahNasiGoreng" name="Jumlah_NasiGoreng" placeholder="Jumlah item (angka)">
             </div>
             <div class="menu-item">
                 <input type="checkbox" id="NasiRuwet" name="NasiRuwet" value="NasiRuwet">
                 <label for="JumlahNasiRuwet">Nasi Ruwet</label>
-                <input type="text" id="JumlahNasiRuwet" name="Jumlah_NasiRuwet" placeholder="Jumlah item (angka)">
+                <input type="number" id="JumlahNasiRuwet" name="Jumlah_NasiRuwet" placeholder="Jumlah item (angka)">
             </div>
             <div class="menu-item">
                 <input type="checkbox" id="BakmiRebus" name="BakmiRebus" value="BakmiRebus">
                 <label for="JumlahBakmiRebus">Bakmi Rebus</label>
-                <input type="text" id="JumlahBakmiRebus" name="Jumlah_BakmiRebus" placeholder="Jumlah item (angka)">
+                <input type="number" id="JumlahBakmiRebus" name="Jumlah_BakmiRebus" placeholder="Jumlah item (angka)">
             </div>
             <div class="menu-item">
                 <input type="checkbox" id="BakmiGoreng" name="BakmiGoreng" value="BakmiGoreng">
                 <label for="JumlahBakmiGoreng">Bakmi Goreng</label>
-                <input type="text" id="JumlahBakmiGoreng" name="Jumlah_BakmiGoreng" placeholder="Jumlah item (angka)">
+                <input type="number" id="JumlahBakmiGoreng" name="Jumlah_BakmiGoreng" placeholder="Jumlah item (angka)">
             </div>
             <div class="button-container">
                 <button type="button" onclick="this.form.reset()">Clear</button>

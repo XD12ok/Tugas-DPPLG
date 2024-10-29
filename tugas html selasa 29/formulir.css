@@ -16,13 +16,13 @@ hr {
 .formulir {
     background-color: rgb(226, 138, 38);
     filter: opacity(90%);
-    padding: 15px;
+    padding: 10px;
     border-radius: 8px;
     border-style: dashed;
     width: 90%;
     max-width: 1200px;
-    max-height: 95vh;
-    overflow: auto; /* Allow scrolling if content is too tall */
+    max-height: 100vh;
+    overflow: auto;
 }
 
 h2 {
@@ -35,7 +35,25 @@ h2 {
     display: flex;            
     justify-content: center;  
     align-items: center;      
-    margin-top: 15px; /* Add margin for spacing */
+    margin-top: 15px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+}
+
+.input-group input[type="radio"] {
+    margin-right: 10px;
+}
+
+#KetikPembayaran {
+    margin-left: auto; 
+    padding: 6px;
+    width: 46%;
 }
 
 button {
@@ -50,7 +68,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3; /* Darker on hover */
+    background-color: #0056b3;
 }
 
 label, 
@@ -60,7 +78,6 @@ select,
 #Kode_Pos, 
 #Tanggal_Beli {
     width: 100%;
-    margin-bottom: 8px; 
 }
 
 input[type="text"], 
@@ -85,7 +102,7 @@ select {
     font-size: 14px;
 }
 
-.menu-item input[type="text"] {
+.menu-item input[type="number"] {
     width: 50%;
     margin-left: 5px;
     padding: 5px; 
